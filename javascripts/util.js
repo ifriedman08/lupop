@@ -1,3 +1,5 @@
+$.mobile.loading( "hide" );
+
 $("div.main-nav-link > div").on("tap mousedown", function () {
   console.log("tap click");
   console.log('mousedown');
