@@ -1,4 +1,6 @@
-$.mobile.loading( "hide" );
+$( document ).on( "mobileinit", function() {
+    $.mobile.loader.prototype.options.disabled = true;
+});
 
 $("div.main-nav-link > div").on("tap mousedown", function () {
   console.log("tap click");
