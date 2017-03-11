@@ -1,6 +1,4 @@
-$( document ).on( "mobileinit", function() {
-    $.mobile.loader.prototype.options.disabled = true;
-});
+$.mobile.ajaxEnabled=false;
 
 $("div.main-nav-link > div").on("tap mousedown", function () {
   console.log("tap click");

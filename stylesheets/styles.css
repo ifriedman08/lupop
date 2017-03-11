@@ -52,3 +52,7 @@ p#bio-body{
   padding: 2em;
   margin: 2em;
 }
+
+.ui-loader-default.ui-loader {
+    display: none;
+}
