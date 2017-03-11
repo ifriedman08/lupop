@@ -1,12 +1,13 @@
-$("div.main-nav-link > div")
-.mousedown(function (el) {
+$("div.main-nav-link > div").on("tap mousedown", function () {
+  console.log("tap click");
   console.log('mousedown');
   $(this).css({
     'background-color' : 'black',
     'color'  : 'white'
   })
 })
-.mouseup(function () {
+
+$("div.main-nav-link > div").on("mouseup", function () {
   console.log('mouseup');
   $(this).css({
     'background-color' : 'white',
